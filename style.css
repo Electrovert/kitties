@@ -1,8 +1,21 @@
 body {
     background: yellow; 
+    text-align: center;
 }
 
-image {
-    width: 100px;
+.picture {
+    float: right;
+    width: 200px;
     height: 100px;
+}
+
+div {
+    background: wheat;
+    padding: 30px;
+    border: 10px;
+    width: 200px;
+}
+
+.clearfix {
+    overflow: auto;
 }
